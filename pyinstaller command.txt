@@ -1,0 +1,1 @@
+pyinstaller --noconsole --onefile --icon=logo.ico  --add-data "ffmpeg.exe;." --add-data "ffplay.exe;." --add-data "ffprobe.exe;." --add-data "logo.ico;." encoder.py

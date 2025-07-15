@@ -1,0 +1,30 @@
+# Ignore build artifacts
+build/
+dist/
+__pycache__/
+*.spec
+
+
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore executables and binary tools
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+*.exe
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore packaging scripts and outputs
+pyinstaller/
+
+
+

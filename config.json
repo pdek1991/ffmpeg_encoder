@@ -1,0 +1,14 @@
+{
+    "theme": "darkly",
+    "logging_level": "INFO",
+    "ffmpeg_loglevel": "info",
+    "log_rotation_interval": "midnight",
+    "log_retention_days": 7,
+    "retry_attempts": 5,
+    "retry_delay_seconds": 10,
+    "last_selected_channel": "Channel 10",
+    "default_channels_count": 15,
+    "udp_packet_timeout_seconds": 10,
+    "udp_check_interval_seconds": 30,
+    "ffmpeg_process_monitor_interval_seconds": 5
+}
