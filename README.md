@@ -1,10 +1,3 @@
----
-
-##VigilSiddhi Encoder Application
-
-VigilSiddhi Encoder is a robust desktop application built with Python's Tkinter and ttkbootstrap that provides a user-friendly interface for managing and streaming video and audio channels using FFmpeg. It allows users to configure various input and output types (UDP, SRT, RTMP, HLS, YouTube), monitor system resources, and get real-time status updates for each stream.
----
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -25,7 +18,11 @@ VigilSiddhi Encoder is a robust desktop application built with Python's Tkinter 
 - [License](#license)
 
 ---
+##VigilSiddhi Encoder Application
 
+VigilSiddhi Encoder is a robust desktop application built with Python's Tkinter and ttkbootstrap that provides a user-friendly interface for managing and streaming video and audio channels using FFmpeg. It allows users to configure various input and output types (UDP, SRT, RTMP, HLS, YouTube), monitor system resources, and get real-time status updates for each stream.
+
+---
 ## Overview
 
 FFmpeg is a powerful multimedia framework for encoding, decoding, transcoding, muxing, demuxing, streaming, filtering, and playing almost anything. This project provides scripts, config templates, and examples for advanced encoding workflows.
