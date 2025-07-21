@@ -10,5 +10,7 @@
     "default_channels_count": 15,
     "udp_packet_timeout_seconds": 10,
     "udp_check_interval_seconds": 30,
-    "ffmpeg_process_monitor_interval_seconds": 5
+    "ffmpeg_process_monitor_interval_seconds": 5,
+    "preview_auto_stop_seconds": 60,
+    "network_max_bandwidth_mbps": 100
 }

@@ -1,7 +1,7 @@
 {
     "Channel 1": {
         "display_name": "Channel 1",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.1",
@@ -17,13 +17,24 @@
             "program_id": "",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
-        "programs": []
+        "programs": [],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": false
     },
     "Channel 2": {
         "display_name": "Channel 2",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.2",
@@ -39,7 +50,16 @@
             "program_id": "1",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
         "programs": [
             {
@@ -157,11 +177,13 @@
                     }
                 ]
             }
-        ]
+        ],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": true
     },
     "Channel 3": {
         "display_name": "Channel 3",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.3",
@@ -177,7 +199,16 @@
             "program_id": "1",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
         "programs": [
             {
@@ -295,11 +326,13 @@
                     }
                 ]
             }
-        ]
+        ],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": true
     },
     "Channel 4": {
         "display_name": "Channel 4",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.4",
@@ -315,7 +348,16 @@
             "program_id": "1",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
         "programs": [
             {
@@ -433,11 +475,13 @@
                     }
                 ]
             }
-        ]
+        ],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": true
     },
     "Channel 5": {
         "display_name": "Channel 5",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.5",
@@ -453,13 +497,24 @@
             "program_id": "",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
-        "programs": []
+        "programs": [],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": false
     },
     "Channel 6": {
         "display_name": "Channel 6",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.6",
@@ -475,7 +530,16 @@
             "program_id": "1",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
         "programs": [
             {
@@ -593,11 +657,12 @@
                     }
                 ]
             }
-        ]
+        ],
+        "last_known_streaming_state": false
     },
     "Channel 7": {
         "display_name": "Channel 7",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.7",
@@ -613,7 +678,16 @@
             "program_id": "1",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
         "programs": [
             {
@@ -731,7 +805,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": true
     },
     "Channel 8": {
         "display_name": "Channel 8",
@@ -751,7 +827,16 @@
             "program_id": "1",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
         "programs": [
             {
@@ -869,11 +954,13 @@
                     }
                 ]
             }
-        ]
+        ],
+        "last_known_streaming_state": true,
+        "has_any_video_stream_detected": true
     },
     "Channel 9": {
         "display_name": "Channel 9",
-        "input_stream_status": "unavailable",
+        "input_stream_status": "starting",
         "config": {
             "input_type": "UDP",
             "input_ip": "239.1.1.9",
@@ -889,7 +976,16 @@
             "program_id": "1",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
         "programs": [
             {
@@ -1007,7 +1103,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": true
     },
     "Channel 10": {
         "display_name": "SRT",
@@ -1027,8 +1125,19 @@
             "program_id": "",
             "output_srt_mode": "caller",
             "output_rtp_protocol": "udp",
-            "output_rtp_payload_type": "96"
+            "output_rtp_payload_type": "96",
+            "output_srt_latency": "5000",
+            "output_srt_maxbw": "0",
+            "output_srt_tsbpdmode": "True",
+            "output_srt_sndbuf": "8000000",
+            "output_srt_rcvbuf": "8000000",
+            "output_udp_pkt_size": "1316",
+            "input_probesize": "10M",
+            "input_analyzeduration": "10M",
+            "output_max_delay": "0"
         },
-        "programs": []
+        "programs": [],
+        "last_known_streaming_state": false,
+        "has_any_video_stream_detected": false
     }
 }
