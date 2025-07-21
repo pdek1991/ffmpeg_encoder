@@ -15,7 +15,6 @@
 - [Color Indicators](#color-indicators)
 - [Future Improvements](#future-improvements)
 - [Advanced FFmpeg Parameters (For Future Use)](#advanced-ffmpeg-parameters-for-future-use)
-- [License](#license)
 
 ---
 ## VigilSiddhi Encoder Application
